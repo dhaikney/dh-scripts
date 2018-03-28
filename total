@@ -1,0 +1,14 @@
+#! /usr/bin/env - python
+
+import fileinput
+
+total = 0
+warn = False
+for line in fileinput.input():
+  try:
+    total += int(line)
+  except:
+    warn = True
+print total
+if warn:
+  print "Found non-int input"
