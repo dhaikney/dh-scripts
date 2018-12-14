@@ -18,19 +18,22 @@ projects = ['ep-engine', 'memcached', 'couchstore', 'platform']
 
 good_guys = { "jim": {"username": "jim", "displayname": "Jim"},
              "daver": {"username": "drigby", "displayname": "Dave R"},
-             "manu": {"username": "manu", "displayname": "Manu"},
+             # "manu": {"username": "manu", "displayname": "Manu"},
              "dan": {"username": "owend", "displayname": "Daniel"},
              "trond": {"username": "trond", "displayname": "Trond"},
              # "mark": {"username": "mnunberg", "displayname": "Mark N"},
-             "sriram": {"username": "sriganes", "displayname": "Sriram"},
+             # "sriram": {"username": "sriganes", "displayname": "Sriram"},
              # "will": {"username": "WillGardner", "displayname": "Will"},          
              "james": {"username": "jameseh96", "displayname": "James"},           
              # "ollie": {"username": "OliverMD", "displayname": "Ollie"},
              "paolo": {"username": "paolococchi", "displayname": "Paolo"},
-             "prem": {"username": "premkumr", "displayname": "Prem"},
+             # "prem": {"username": "premkumr", "displayname": "Prem"},
              "tim": {"username": "Tim020", "displayname": "Tim"},
              "pv": {"username": "patrick", "displayname": "Patrick"},
-              "simon": {"username": "spjmurray", "displayname": "Simon"}
+             "simon": {"username": "spjmurray", "displayname": "Simon"},
+             "sven": {"username": "sven", "displayname": "Sven"},
+             "ben": {"username": "ben", "displayname": "Ben"},
+             
              }
 
 statusStrings = {

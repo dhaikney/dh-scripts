@@ -19,7 +19,7 @@ def runWorkload(bucket,args):
     success = False
     while not success:
       try:
-        result = bucket.set(key, document, format=couchbase.FMT_BYTES)
+        result = bucket.set(key, document, format=couchbase.FMT_BYTES,ttl=args.expiry)
         print "\radded doc: " + key,
         sys.stdout.flush()
         success = True
